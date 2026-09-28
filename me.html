@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <title>Maybe Mason — Creator Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-channel="mason">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="wordmark" href="index.html"><span class="wordmark-mark">▶</span> CREATOR HUB</a>
+    <a class="back-link" href="index.html">← All channels</a>
+  </header>
+  <main class="channel-page">
+    <section class="channel-hero">
+      <div class="channel-avatar-wrap"><img id="channel-avatar" src="assets/avatar-placeholder.svg" alt="Channel profile picture"></div>
+      <div class="channel-heading">
+        <p class="eyebrow">CREATOR CHANNEL</p>
+        <h1 id="channel-name">Maybe Mason</h1>
+        <p class="handle" id="channel-handle">@maybe_mason</p>
+        <p class="channel-description" id="channel-description">Videos, gaming, and more.</p>
+        <div class="hero-actions">
+          <a class="button button-red" id="subscribe-button" href="https://www.youtube.com/@maybe_mason" target="_blank" rel="noopener">▶ Subscribe on YouTube</a>
+          <a class="button button-quiet" id="donate-button" href="#" hidden target="_blank" rel="noopener">♥ Support this creator</a>
+        </div>
+      </div>
+    </section>
+    <section class="videos-section">
+      <div class="section-heading"><div><p class="eyebrow">FRESH FROM YOUTUBE</p><h2>Latest videos</h2></div><a class="text-link" id="all-videos-link" href="https://www.youtube.com/@maybe_mason/videos" target="_blank" rel="noopener">View on YouTube ↗</a></div>
+      <div class="video-grid" id="video-grid"><div class="loading-card">Loading latest videos<span class="loading-dots">...</span></div></div>
+      <p class="status-message" id="video-status" role="status"></p>
+    </section>
+  </main>
+  <footer class="site-footer"><a href="index.html">← Choose another channel</a><span>Videos and channel details are provided by YouTube.</span></footer>
+  <script src="channel-config.js"></script>
+  <script src="channel-page.js"></script>
+</body>
+</html>

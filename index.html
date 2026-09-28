@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <title>Our Channels</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="wordmark" href="index.html"><span class="wordmark-mark">▶</span> CREATOR HUB</a>
+    <span class="header-note">Two creators. One place.</span>
+  </header>
+  <main class="chooser-page">
+    <p class="eyebrow">WELCOME TO OUR CORNER OF YOUTUBE</p>
+    <h1>Choose a <span class="gradient-text">channel.</span></h1>
+    <p class="lead">Pick a creator to explore their latest videos and find them on YouTube.</p>
+    <section class="channel-choices" aria-label="Choose a channel">
+      <a class="creator-card" href="me.html">
+        <div class="card-glow"></div>
+        <div class="avatar-wrap"><img id="mason-avatar" src="assets/avatar-placeholder.svg" alt="Maybe Mason channel picture"><span class="online-dot"></span></div>
+        <p class="card-kicker">CREATOR 01</p>
+        <h2>Maybe Mason</h2>
+        <p class="handle">@maybe_mason</p>
+        <span class="card-action">Explore channel <span aria-hidden="true">↗</span></span>
+      </a>
+      <a class="creator-card creator-card-purple" href="brother.html">
+        <div class="card-glow"></div>
+        <div class="avatar-wrap"><img id="brother-avatar" src="assets/avatar-placeholder.svg" alt="HashMC channel picture"><span class="online-dot"></span></div>
+        <p class="card-kicker">CREATOR 02</p>
+        <h2>HashMC</h2>
+        <p class="handle">@hashmc</p>
+        <span class="card-action">Explore channel <span aria-hidden="true">↗</span></span>
+      </a>
+    </section>
+    <p class="small-note" id="chooser-status">Channel pictures load automatically when the YouTube API is configured.</p>
+  </main>
+  <footer class="site-footer"><span>CREATOR HUB</span><span>Made for our channels</span></footer>
+  <script src="channel-config.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
